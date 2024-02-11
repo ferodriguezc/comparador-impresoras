@@ -1,149 +1,340 @@
 <!DOCTYPE html>
-<html>
 
+
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+   <style>
+   
+    .contenedor {
+  border-radius: 10px;
+  text-align: center;
+  border-radius: 10px;
+  max-height: 0; /* Comienza con una altura de cero */
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  background-color: white;
+}
 
+.contenedor.aparecer {
+  max-height: 100%; /* Cambia a la altura máxima cuando aparece */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  
+}
+
+.cont_marca {
+  border-radius: 10px;
+  background-color: rgba(66, 81, 241, 1);
+  padding: 30px;
+}
+
+
+.contenedor2 {
+  text-align: center;
+  border-radius: 10px;
+  max-height: 0; /* Comienza con una altura de cero */
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  background-color: white;
+}
+
+.contenedor2.aparecer2 {
+  max-height: 100%; /* Cambia a la altura máxima cuando aparece */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  
+}
+
+.cont_marca2 {
+  background-color: rgba(241, 66, 66, 1);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 10px
+}
+
+
+
+.contenedor3 {
+  text-align: center;
+  border-radius: 10px;
+  max-height: 0; /* Comienza con una altura de cero */
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  background-color: white;
+}
+
+.contenedor3.aparecer3 {
+  max-height: 100%; /* Cambia a la altura máxima cuando aparece */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  
+}
+
+.cont_marca3 {
+  background-color: rgba(236, 241, 66, 1);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px
+}
+
+
+
+
+
+.contenedor4 {
+  text-align: center;
+  border-radius: 10px;
+  max-height: 0; /* Comienza con una altura de cero */
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  background-color: white;
+}
+
+.contenedor4.aparecer4 {
+  max-height: 100%; /* Cambia a la altura máxima cuando aparece */
+  transition: max-height 1s ease; /* Transición suave de la altura */
+  
+}
+
+.cont_marca4 {
+  border-radius: 10px;
+  background-color: rgba(75, 66, 241, 1);
+  padding: 30px;
+  margin-top: 10px
+}
+
+.titulo{
+  background-color: rgba(66, 81, 241, 1); 
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.subtitulo {
+  text-align: center;
+  color: white;
+  font-size: large;
+  text-transform: uppercase;
+  transform: skew(15deg);
+}
+
+.nombreimpresora {
+  color: black;
+}
+
+
+
+.imagenimpresora {
+  width: 45%;
+}
+
+li{
+  text-align: left;
+}
+  </style>
 </head>
 
+
+
 <body>
-
-
-    <style>
-
-
-    </style>
-
-
-
-    <header class="encabezado">
-        <p class="textomarca">BROTER</p>
-    </header>
-
-
-    <main>
-
-        <section class="contenedor" id="contenedor">
-
+  
+  
+  <header>
+   <h1 class="titulo">Modelos de impresoras y sus características</h1>
+  </header>
+  
+ 
+    <div class="cont_marca" id="cont_marca" onclick="apdp('contenedor')">
+    <h2 class="subtitulo">brother</h2>
+    
+    
+       <section class="contenedor" id="contenedor">
+          <div style="padding: 20px">
+            
+       
             <header>
-                <p class="nombreimpresora">Impresora multifuncional brother DCP-220</p>
+                <h3 class="nombreimpresora">Impresora multifuncional brother DCP-220</h3>
             </header>
-
-
+            
             <img class="imagenimpresora" src="420.jpg" alt="dcpt220.png">
-
-
-            <div class="divAtributos">
-
                 <p>Atributos</p>
-
                 <ul>
                     <li>Multifuncional "imprime,escanea y saca fotocopias (bn/color)"</li>
                     <li>Tinta Continúa</li>
                     <li>Solo connección mediante USB</li>
-                    <li>MODO ECO: 28ppm(bn) y 11ppm(color) <br>
-                        MODO ISO: 16ppm(bn) y 9ppm(color)
-                    </li>
+                    <li>MODO ECO: 28ppm(bn) y 11ppm(color) <br> MODO ISO: 16ppm(bn) y 9ppm(color) </li>
+                    <li>compatible Windows y mac</li>
+                    
+                     <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+                     
+                    <li>inyección en frio com cabezal incorporado </li> 
+                    
+                    <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+                    
+                   <li>inyección en frio com cabezal incorporado </li>
+                   
+                   <li>
+                     Pro: velocidad de impresión <br>
+                     contra: Sin WiFi 
+                   </li>
                 </ul>
 
-            </div>
-
-
-
-
-
-
-
         </section>
+           </div>
+             
+           </div>
 
-        <section class="contenedor">
-
+  <div class="cont_marca2" id="cont_marca2" onclick="apdp('contenedor2')">
+    <h2 class="subtitulo">cannon</h2>
+    
+    
+       <section class="contenedor2" id="contenedor2">
+          <div style="padding: 20px">
+            
+       
             <header>
-                <p class="nombreimpresora">Impresora multifuncional brother DCP-420w</p>
+                <h3 class="nombreimpresora">Impresora multifuncional G2110</h3>
             </header>
-
-
-            <img class="imagenimpresora" src="420.jpg" alt="dcpt420.png">
-            <div class="divAtributos">
+            
+            <img class="imagenimpresora" src="420.jpg" alt="dcpt220.png">
                 <p>Atributos</p>
                 <ul>
                     <li>Multifuncional "imprime,escanea y saca fotocopias (bn/color)"</li>
                     <li>Tinta Continúa</li>
-                    <li>Connección mediante USB y WiFi</li>
-                    <li>MODO ECO: 28ppm(bn) y 11ppm(color) <br>
-                        MODO ISO: 16ppm(bn) y 9ppm(color)
-                    </li>
-                    <li>bandeja by-pass para papel de 300gr</li>
+                    <li>Solo connección mediante USB</li>
+                    <li> MODO ISO: 8.8ppm(bn) y 5ppm(color) </li>
+                    <li>compatible Window</li>
+                    
+                     <li>rendimiento de 6.000 en negro y 7.000 a color</li>
+                     
+                    <li>inyección en caliente con cabezal remobible</li> 
+                    
+                    <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+                    
+                   <li>inyección en frio com cabezal incorporado </li>
+                   <li>
+                     Pro: precio <br>
+                     contra: Sin WiFi, quema de inyector
+                   </li>
                 </ul>
-
-            </div>
-
+   
         </section>
-
-
-
-        </section>
-
-        <section class="contenedor">
-
+        
+    </div>
+      
+    </div>
+    
+    
+    
+      <div class="cont_marca3" id="cont_marca3" onclick="apdp('contenedor3')">
+    <h2 class="subtitulo">Hp</h2>
+    
+    
+       <section class="contenedor3" id="contenedor3">
+          <div style="padding: 20px">
+            
+       
             <header>
-                <p class="nombreimpresora">Impresora multifuncional brother DCP-520w</p>
+                <h3 class="nombreimpresora">Impresora multifuncional brother DCP-220</h3>
             </header>
-
-
-            <img class="imagenimpresora" src="520.jpg" alt="dcpt520.png" style="width: 45%;">
-            <div class="divAtributos">
+            
+            <img class="imagenimpresora" src="420.jpg" alt="dcpt220.png">
                 <p>Atributos</p>
                 <ul>
                     <li>Multifuncional "imprime,escanea y saca fotocopias (bn/color)"</li>
                     <li>Tinta Continúa</li>
-                    <li>Connección mediante USB y WiFi</li>
-                    <li>MODO ECO: 30ppm(bn) y 12ppm(color) <br>
-                        MODO ISO: 17ppm(bn) y 9ppm(color)
-                    </li>
-                    <li>Panel monocromático</li>
-                    <li>liberador de rodillo(zona de la bandeja)</li>
-                    <li>bandeja by-pass para papel de 300gr</li>
+                    <li>Solo connección mediante USB</li>
+                    <li>MODO ECO: 28ppm(bn) y 11ppm(color) <br> MODO ISO: 16ppm(bn) y 9ppm(color) </li>
+                    <li>compatible Windows y mac</li>
+                    
+                     <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+                     
+                    <li>inyección en frio com cabezal incorporado </li> 
+                    
+                    <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+                    
+                   <li>inyección en frio com cabezal incorporado </li>
+                   <li>
+                     Pro: velocidad de impresión <br>
+                     contra: Sin WiFi
+                   </li>
                 </ul>
-
-            </div>
-
+   
         </section>
-        <section class="contenedor">
+        
+    </div>
+     <div class="cont_marca4" id="cont_marca4" onclick="apdp('contenedor4')">
+       <h2 class="subtitulo">Epson</h2>
+    
+    
+       <section class="contenedor4" id="contenedor4">
+         <div style="padding: 20px">
+    
+    
+           <header>
+             <h3 class="nombreimpresora">Impresora multifuncional brother DCP-220</h3>
+           </header>
+    
+           <img class="imagenimpresora" src="420.jpg" alt="dcpt220.png">
+           <p>Atributos</p>
+           <ul>
+             <li>Multifuncional "imprime,escanea y saca fotocopias (bn/color)"</li>
+             <li>Tinta Continúa</li>
+             <li>Solo connección mediante USB</li>
+             <li>MODO ECO: 28ppm(bn) y 11ppm(color) <br> MODO ISO: 16ppm(bn) y 9ppm(color) </li>
+             <li>compatible Windows y mac</li>
+    
+             <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+    
+             <li>inyección en frio com cabezal incorporado </li>
+    
+             <li>rendimiento de 7.500 en negro y 5.000 a color</li>
+    
+             <li>inyección en frio com cabezal incorporado </li>
+             <li>
+               Pro: velocidad de impresión <br>
+               contra: Sin WiFi
+             </li>
+           </ul>
+    
+       </section>
+    
+     </div>
+</div>
 
-            <header>
-                <p class="nombreimpresora">Impresora multifuncional brother DCP-720w</p>
-            </header>
-
-
-            <img class="imagenimpresora" src="720.jpg" alt="dcpt720.png" style="width: 45%;">
-            <div class="divAtributos">
-                <p>Atributos</p>
-                <ul>
-                    <li>Multifuncional "imprime,escanea y saca fotocopias (bn/color)"</li>
-                    <li>Tinta Continúa</li>
-                    <li>Connección mediante USB y WiFi</li>
-                    <li>MODO ECO: 30ppm(bn) y 26ppm(color) <br>
-                        MODO ISO: 17ppm(bn) y 16ppm(color)
-                    </li>
-                    <li>Panel monocromático</li>
-                    <li>liberador de rodillo(zona de la bandeja)</li>
-                    <li>bandeja by-pass para papel de 300gr</li>
-                    <li>Impresión a doble cara</li>
-                </ul>
-
-            </div>
-
-        </section>
 
 
 
+  <script>
+  
+    
+    function apdp(con01) {
+    var conte = document.getElementById(con01);
+    var conteStyles = window.getComputedStyle(conte);
+    var currentMaxHeight = conteStyles.getPropertyValue('max-height');
+    
+    if (currentMaxHeight === '0px') {
+        conte.style.maxHeight = conte.scrollHeight + 'px';
+    } else {
+        conte.style.maxHeight = '0';
+    }
+}
+    
+    
+    
+    
+    
+  </script>
+
+  
+  
+</body>
+</html>
 
 
-    </main>
 
 
 
